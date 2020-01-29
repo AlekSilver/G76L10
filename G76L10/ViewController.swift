@@ -11,9 +11,7 @@ import UIKit
 class ViewController: UIViewController, UITextViewDelegate {
     @IBOutlet weak var progressBar: UIProgressView!
     @IBOutlet weak var textView: UITextView!
-    
-    let startPoint: CGPoint = .zero
-    
+        
     override func viewDidLoad() {
         
         super.viewDidLoad()
